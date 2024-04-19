@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {},
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "@mono/config-ts": "workspace:*",
+    "@mono/utils": "workspace:*",
+    "@radix-ui/react-slot": "1.0.2"
+  },
+  "exports": {
+    "./*": "./src/ui/*.tsx"
+  }
 }
