@@ -2,7 +2,9 @@
   "name": "@mono/ui",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "ui-add": "pnpx shadcn-ui@latest add"
+  },
   "keywords": [],
   "dependencies": {
     "@mono/config-ts": "workspace:*",
