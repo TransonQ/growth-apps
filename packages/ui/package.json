@@ -11,5 +11,8 @@
   },
   "exports": {
     "./*": "./src/ui/*.tsx"
+  },
+  "devDependencies": {
+    "@mono/config-tailwind": "workspace:*"
   }
 }

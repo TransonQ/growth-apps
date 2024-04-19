@@ -75,12 +75,19 @@ importers:
 
   apps/vite-react:
     dependencies:
-      '@mono/config-ts':
-        specifier: workspace:*
-        version: link:../../packages/config-ts
       '@mono/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      '@mono/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+    devDependencies:
+      '@mono/config-tailwind':
+        specifier: workspace:*
+        version: link:../../packages/config-tailwind
+      '@mono/config-ts':
+        specifier: workspace:*
+        version: link:../../packages/config-ts
 
   packages/config-tailwind: {}
 
@@ -97,6 +104,10 @@ importers:
       '@radix-ui/react-slot':
         specifier: 1.0.2
         version: 1.0.2(@types/react@18.2.79)(react@18.2.0)
+    devDependencies:
+      '@mono/config-tailwind':
+        specifier: workspace:*
+        version: link:../config-tailwind
 
   packages/utils:
     devDependencies:

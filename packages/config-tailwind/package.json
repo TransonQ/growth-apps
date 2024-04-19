@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {},
-  "keywords": []
+  "keywords": [],
+  "exports": {
+    ".": "./tailwind.config.ts",
+    "./global.css": "./global.css"
+  }
 }

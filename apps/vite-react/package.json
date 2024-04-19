@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mono/config-ts": "workspace:*",
+    "@mono/utils": "workspace:*",
     "@mono/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@mono/config-tailwind": "workspace:*",
+    "@mono/config-ts": "workspace:*"
   }
 }
