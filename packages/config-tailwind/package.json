@@ -1,8 +1,7 @@
 {
-  "name": "@growth/config-tailwind",
+  "name": "@mono/config-tailwind",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "scripts": {},
   "keywords": []
 }

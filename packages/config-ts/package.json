@@ -1,8 +1,8 @@
 {
-  "name": "@growth/config-ts",
+  "name": "@mono/config-ts",
   "version": "1.0.0",
   "description": "",
-  "private": true,
-  "scripts": {},
-  "keywords": []
+  "exports": {
+    ".": "./tsconfig.json"
+  }
 }

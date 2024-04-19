@@ -1,8 +1,7 @@
 {
-  "name": "@growth/utils",
+  "name": "@mono/utils",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "scripts": {},
   "keywords": []
 }
