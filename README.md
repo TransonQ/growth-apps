@@ -1,5 +1,10 @@
 ## A monorepo template built using pnpm workspace, utilizing the shadcn component library.
 
+- pnpm workspace
+- vite
+- shadcn
+- tailwindcss
+
 ![project](./grwoth-apps.png)
 
 ```
