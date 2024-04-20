@@ -75,6 +75,9 @@ importers:
 
   apps/vite-react:
     dependencies:
+      '@mono/hooks':
+        specifier: workspace:*
+        version: link:../../packages/hooks
       '@mono/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -92,6 +95,12 @@ importers:
   packages/config-tailwind: {}
 
   packages/config-ts: {}
+
+  packages/hooks:
+    devDependencies:
+      '@mono/config-ts':
+        specifier: workspace:*
+        version: link:../config-ts
 
   packages/ui:
     dependencies:

@@ -1,3 +1,4 @@
+import { useTest } from "@mono/hooks"
 import { Button } from "@mono/ui/button"
 import {
   Card,
@@ -9,6 +10,8 @@ import {
 } from "@mono/ui/card"
 
 function App() {
+  const test = useTest()
+  console.log("test: ", test)
   return (
     <>
       <Button>click</Button>

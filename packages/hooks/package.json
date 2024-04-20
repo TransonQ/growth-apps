@@ -1,0 +1,13 @@
+{
+  "name": "@mono/hooks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {},
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@mono/config-ts": "workspace:*"
+  }
+}
