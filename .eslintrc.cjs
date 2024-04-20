@@ -23,7 +23,7 @@ module.exports = {
     {
       files: ["apps/**/*.{ts,tsx}"],
       rules: {
-        "no-var": "warn",
+        "no-var": "error",
         "no-empty": "off",
         "prefer-const": "warn",
         "no-unused-vars": "off", // 所有参数解构占位, 便于维护
