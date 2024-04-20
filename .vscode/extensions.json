@@ -2,5 +2,10 @@
   "recommendations": [
     "idered.npm",
     "exodiusstudios.comment-anchors",
+    "codeium.codeium",
+    "bradlc.vscode-tailwindcss",
+    "gruntfuggly.todo-tree",
+    "whtouche.vscode-js-console-utils",
+    "usernamehw.errorlens"
   ]
 }
